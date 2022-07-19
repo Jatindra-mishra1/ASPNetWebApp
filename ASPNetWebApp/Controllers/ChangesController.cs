@@ -6,5 +6,10 @@ namespace ASPNetWebApp.Controllers
     [Route("api/changes")]
     public class ChangesController : ControllerBase
     {
+        private readonly String _context;
+        public ChangesController()
+        {
+            _context = null;
+        }
     }
 }
