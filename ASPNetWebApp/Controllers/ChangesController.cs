@@ -1,6 +1,10 @@
-﻿namespace ASPNetWebApp.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace ASPNetWebApp.Controllers
 {
-    public class ChangesController
+    [ApiController]
+    [Route("api/changes")]
+    public class ChangesController : ControllerBase
     {
     }
 }
